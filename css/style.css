@@ -1,12 +1,25 @@
 body {
-	background-color: grey;
-	width: 100%;
+	background-color: beige;
+	width: 80%;
 }
 
 #content {
-	background: -moz-linear-gradient(green, beige);
+	background: -moz-linear-gradient(#8fbc8f, #f5f5dc);
+	background-position: center; 
+	margin: 0em 14.5em; 
+	width: 80%
 }
 
 h1 {
 	font-size: 3.125em; /* 50px/16px */
+	color: ffffff;
+	text-align: center;
+}
+
+h2 {
+
+}
+
+p {
+	color: 666666; 
 }
