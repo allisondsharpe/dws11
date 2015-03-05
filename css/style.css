@@ -1,0 +1,12 @@
+body {
+	background-color: grey;
+	width: 100%;
+}
+
+#content {
+	background: -moz-linear-gradient(green, beige);
+}
+
+h1 {
+	font-size: 3.125em; /* 50px/16px */
+}
