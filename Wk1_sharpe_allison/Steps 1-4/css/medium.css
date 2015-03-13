@@ -1,0 +1,137 @@
+/* body elements */
+body {
+	background-color: #f5f5dc;
+	width: 81.3%; /* 13px */
+}
+
+/* div id "content" elements */
+#content {
+	background: -moz-linear-gradient(#a0c2b4, #f5f5dc);
+	border: 2px solid #666666;
+	border-radius: 2em 2em; 
+	margin: 0% 15.38461538461538%; /* 200px/13px */
+	padding: 1.53846153846154%; /* 10px/13px */
+	width: 85.76923076923077%; /* 1115px/13px */
+}
+
+/* navigational elements */
+nav {
+	border: 2px solid #666666;
+	border-radius: 2em 2em; 
+	margin: 1.53846153846154% 7.69230769230769%; /* 10px/13px, 100px/13px */
+	background-color: #f5f5dc; 
+}
+
+/* child selector elements for unordered list */ 
+ul > li {
+	font-style: normal;  
+}
+
+/* list item elements */
+li {
+	display: inline; 
+	margin: 0% 7.69230769230769%; /* 100px/13px */
+}
+
+/* nth child elements for odd list items */
+li:nth-child(odd){ 
+	background-color: #f5f5dc; 
+    border: 1px solid #f5f5dc; 
+}
+
+/* attribute element for "introduction" and hover element for all links */ 
+a[h3], a:link {
+	color: #666666; 
+}
+
+a:hover {
+	text-decoration: none; 
+	color: #ffffff;
+}
+
+/* h1 elements */
+h1 {
+	font-size: 3.462em; /* 45px/13px */
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline; 
+}
+
+/* h2 elements */
+h2 {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline; 
+	font-size: 2.31em; /* 30px/13px */
+	margin: 0.76923076923077% 0%; /* 10px/13px */
+}
+
+/* h3 elements */
+h3 {
+	text-align: center; 
+	text-decoration: underline; 
+	font-size: 1.92em; /* 25px/13px */
+}
+
+/* adjacent elements for h2 and first paragraph */
+h3 + p {
+	font-style: italic; 
+}
+
+/* paragraph elements */
+p {
+	color: #666666; 
+	font-size: 1.000em; /* 16px/13px */
+	text-align: center; 
+}
+
+/* structural pseudo class elements for first-child of span element */
+span:first-child {
+	font-weight: bold; 
+	color: #ffffff;
+}
+
+/* "playstation", "xbox", and "nintendo" ID elements */
+#playstation, #xbox, #nintendo {
+	width: 38.46153846153846%; /* 500px/13px */
+	margin: 0.76923076923077% 0%; /* 10px/13px */
+}
+
+/* image elements */
+img {
+	margin: 0.76923076923077% 79.23076923076923%; /* 10px/13px, 1200px/13px */
+	max-width: 100%; 
+}
+
+/* div id "copyright" elements */
+#copyright {
+	text-align: center; 
+	margin: 0.76923076923077% 0%; /* 10px/13px */
+}
+
+/* Media query for mobile devices */
+@media screen and (min-width: 0px) {
+	#content {
+		width: 38.46153846153846%; /* 500px/13px */
+		font-family: serif; 
+		color: #666666; 
+	}
+}
+
+/* Media query for tablet devices */
+@media screen and (min-width: 1150px) {
+	#content {
+		width: 88.46153846153846%; /* 1200px/13px */
+		font-family: serif; 
+		color: #666666; 
+	}
+}
+
+/* Media query for desktop devices */
+@media screen and (min-width: 1400px) {
+	#content {
+		width: 107.69230769230769%; /* 1400px/13px */
+		font-family: serif; 
+		color: #666666;
+	}
+}
