@@ -30,7 +30,6 @@ h2 {
 	margin: 1.53846153846154%; /* 20px/13px */
 	padding: 1.53846153846154%; 
 	text-align: center;
-	text-decoration: underline; 
 }
 
 /* paragraph and block quote elements */
@@ -53,4 +52,31 @@ img, img p {
 /* footer paragraph elements */
 footer p {
 	text-align: center;
+}
+
+/* Media query for mobile devices */
+@media screen and (min-width: 0px) {
+	.container {
+		width: 81.3%; /* 500px/13px */
+		font-family: serif; 
+		color: #666; 
+	}
+}
+
+/* Media query for tablet devices */
+@media screen and (min-width: 1150px) {
+	.container {
+		width: 81.3%; /* 1200px/13px */
+		font-family: serif; 
+		color: #666; 
+	}
+}
+
+/* Media query for desktop devices */
+@media screen and (min-width: 1400px) {
+	.container {
+		width: 81.3%; /* 1400px/13px */
+		font-family: serif; 
+		color: #666;
+	}
 }
