@@ -1,0 +1,251 @@
+/* body elements */
+body {
+	width: 100%; 
+	background-color: #fff;
+}
+
+/* "container" class elements */
+.container {
+	width: 100%; 
+	padding: 0.76923076923077% 1.53846153846154%; /* 10px/13px, 20px/13px */
+	margin: 0% 7.30769230769231%; /* 95px/13px */
+	background-image: url("../img/container.jpg"); 
+	background-repeat: repeat; 
+	border: 2px solid #666;
+	border-radius: 2em 2em; 
+}
+
+/* h1 elements */
+h1 {
+	text-align: center; 
+	color: #ddd;
+	border: 2px solid #666;
+	border-radius: 2em 2em; 
+	padding: 0.76923076923077%; /* 10px/13px */
+	margin: 1.53846153846154% 15.38461538461538%; /* 20px/13px, 200px/13px */
+	background-image: url("../img/header.jpg"); 
+	position: fixed; 
+	bottom: 1.53846153846154%; 
+	left: 0%; 
+	transform: skew(2deg)
+}
+
+/* h2 elements */
+h2 {
+	color: #ddd;
+	font-size: 2.0em; 
+	width: 100%;
+}
+
+/* paragraph elements */
+p {
+	color: #ddd;
+	font-size: 1.0em; 
+	width: 100%;
+}
+
+/* "sections" elements */
+.header {
+	display: inline-block; 
+	background-image: url("../img/header.jpg"); 
+	border: 2px solid #666; 
+	width: 106.3%; /* 17px */
+	margin: 2.94117647058824% -3.23529411764706%; /* 50px/17px, -55px/17px */
+	position: relative; 
+	top: 0.58823529411765% /* 10px/17px */
+}
+
+/* "box" elements */
+#box {
+	float: left; 
+	width: 40%;
+	margin: 2.30769230769231% 3.84615384615385% 2.30769230769231% 3.84615384615385%; /* 30px/13px, 50px/13px */
+	color: #fff;
+}
+
+/* image elements */
+img {
+	border: 2px solid #ddd; 
+	max-width: 45%; 
+}
+
+/* "image-one" elements */
+#image-one {
+	position: absolute; 
+	bottom: 0.58823529411765%; /* 10px/17px */
+	right: -11.76470588235294%; /* -200px/17px */
+	transform: rotate(-5deg); 
+	z-index: 30; 
+}
+
+/* "image-two" elements */
+#image-two {
+	position: absolute; 
+	top: 0.11764705882353%; /* 2px/17px */
+	bottom: -47.05882352941176%; /* -800px/17px */
+	right: -29.41176470588235%; /* -500px/17px */
+	transform: rotate(5deg); 
+	z-index: 20; 
+}
+
+/*** Forms Begins Here ***/ 
+
+/* form elements */
+form { 
+	width: 43.8%; /* 7px */ 
+	text-align: left;
+	font-family: Open Sans, sans-serif; 
+	font-size: 0.9em; 
+	border: 2px solid #666; 
+	border-radius: 2em 2em; 
+	background-color: #ddd;
+	margin: 0% 25%; 
+	padding: 20px; 
+	color: #666;
+	}
+	
+/* "title" class elements */	
+.title {
+	float: left; 
+	width: 43.8%; /* 7px */
+	clear: left; 
+}
+
+/* "input" class elements */
+.input {
+	float: left;  
+	width: 100%; 
+}
+
+/* "input", "comments", "rate", and "submit" hover elements */
+.input:hover, #comments:hover, #rate:hover, #submit:hover{
+	background-color: #eee;
+	transform: scale(1.1);
+}
+
+/* "input", "comments", and "search" focus elements */
+.input:focus, #comments:focus, #submit:focus, #rate:focus {
+	background-color: #ddd;
+	transition-property: top, left, border-radius, background-color;
+	transition-timing-function: ease; 
+	transition-duration: 1s, 1s, 1s;
+	transition-delay: 2s, 2s, 2s; 
+}
+
+/* input elements for form items */
+input[type=text], input[type=checkbox], 
+input[type=radio], input[type=range],
+input[type=submit] {
+	margin: 2.85714285714286% 0% /* 20px/7px */
+}
+
+/* labels and text area elements for form items */
+label[for=firstname], label[for=lastname], 
+label[for=emailaddress], label[for=phonenumber], 
+label[for=comments], label[for=rate] {
+	margin: 3.57142857142857% 0% /* 25px/7px */ 
+}
+
+/* text input elements */
+input[type=text] {
+	width: 35.71428571428571%; /* 250px/7px */
+	border-style: solid;
+	border-width: 2px; 
+}
+
+/* checkbox and radio elements */
+input[type=checkbox], input[type=radio] {
+	width: 4.28571428571429%; /* 30px/7px */
+}
+
+/* rate input elements */
+input[id=rate] {
+	float: left; 
+	width: 42.8571428571429%; /* 30px/7px */
+} 
+
+/* elements for submit button */
+input[type=submit] {
+	margin: 2.85714285714286% 42.8571428571429%; /* 20px/7px, 30px/7px */ 
+	width: 15%;
+}
+
+/* elements for div items */
+div[id=agefield], div[id=birthday],
+div[id=yesno], div[id=schedule] {
+	margin: 2.85714285714286% 0% 0%; /* 20px/7px */ 
+}
+
+/* elements for "young", "midage", and "senior" labels */
+label[for=young], label[for=midage],
+label[for=senior] {
+	margin: 2.85714285714286% 0% 0%; /* 20px/7px */
+	width: 10%;
+}
+
+/* elements for "yes" and "no" labels */
+label[for=yes], label[for=no] {
+	margin: 2.85714285714286% 0% 0%; /* 20px/7px */ 
+	width: 10%;
+}
+
+/* elements for "full" and "part" labels */
+label[for=full], label[for=part] {
+	margin: 2.85714285714286% 0% 0%; /* 20px/7px */ 
+	width: 15%;
+}
+
+/* elements for birthday items */
+select[id=month], select[id=date],
+select[id=year] {
+	margin: 1.53846153846154%; /* 10px/7px */
+	width: 15%;
+}
+
+/* text area elements */ 
+textarea[name=comments] {
+	width: 40%; 
+	margin: 2.85714285714286% 0% 0%; /* 20px/7px */
+	float: left; 
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*** Form Ends Here ***/ 
+	
+/* "copyright" elements */
+#copyright {	
+	text-align: center;
+	margin: 2.30769230769231% 0% 0.76923076923077% 0%; /* 30px/13px, 10px/13px */
+	color: #666;
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 1000px) {
+	.container {
+		width: 81.3%; 
+		font-family: arial; 
+		color: #ddd; 
+	} 
+	#image-one, #image-two {
+		visibility: hidden; 
+	}
+}
+
+/* Media query for tablet */
+@media only screen and (max-width: 1400px) {
+	.container {
+		width: 81.3%; /* 13px */
+		font-family: arial; 
+		color: #ddd; 
+	}
+}
+
+/* Media query for desktop */
+@media only screen and (max-width:1500px) {
+	.container {
+		width: 81.3%; /* 13px */
+		font-family: arial; 
+		color: #ddd; 
+	}
+}
