@@ -76,6 +76,7 @@ img {
 	right: -11.76470588235294%; /* -200px/17px */
 	transform: rotate(-5deg); 
 	z-index: 30; 
+	border: none; 
 }
 
 /* "image-two" elements */
